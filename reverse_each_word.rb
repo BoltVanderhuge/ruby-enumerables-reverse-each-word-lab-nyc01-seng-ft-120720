@@ -4,6 +4,6 @@ def reverse_each_word(string)
 end
 
 def reverse_each_word(string)
-  string.reverse.split.reverse.join(" ")
+    sentence.split.collect {|word| word.reverse}.join(" ")
   
 end
